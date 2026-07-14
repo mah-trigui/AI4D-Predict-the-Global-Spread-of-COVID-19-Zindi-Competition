@@ -21,10 +21,10 @@ For each country, compute rate-of-change in daily deaths across two windows (6-d
 
 ```r
 # Vectorized elasticity: rate of change in daily deaths
-jh[, elas := {
+df[, elasticity := {
   prev  <- shift(death_dif, 1L, fill = 0)
-  denom <- fifelse(prev == 0, prev + 1, prev)
-  (death_dif - prev) / denom
+  rate <- ifelse(prev == 0, prev + 1, prev)
+  (death_dif - prev) / rate
 }]
 ```
 
