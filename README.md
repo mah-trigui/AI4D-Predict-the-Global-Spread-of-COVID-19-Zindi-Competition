@@ -4,7 +4,6 @@ This competition is hosted on Zindi, a machine learning platform for data scienc
 Here is the link to the competition: [AI4D Predict the Global Spread of COVID-19 🌾 - Win €5,000 EUR](https://zindi.global/competitions/predict-the-global-spread-of-covid-19)
 
 Ranked 4th position (only 47 succeed to submit among 884 competitors)!
-
 ---
 
 Forecasting cumulative COVID-19 deaths for ~180 countries across a multi-week horizon.
